@@ -6,7 +6,7 @@ from discord import FFmpegPCMAudio
 from dotenv import load_dotenv
 
 # Carpeta de audios
-AUDIO_FOLDER = "./audios"
+AUDIO_FOLDER = "./discord-bot-audios"
 
 intents = discord.Intents.default()
 bot = commands.Bot(intents=intents)
